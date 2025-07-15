@@ -269,6 +269,27 @@ html, body {
   box-shadow: 0 0 12px #61dafb55;
 }
 
+.project-tools-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 6px 0 8px 0;
+}
+.project-tools-icons img {
+  width: 30px;
+  height: 30px;
+  background: #181c23;
+  border-radius: 6px;
+  padding: 3px;
+  filter: drop-shadow(0 0 4px #61dafb22) brightness(1.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.project-tools-icons img:hover {
+  transform: scale(1.12) rotate(-2deg);
+  box-shadow: 0 0 8px #61dafb55;
+}
+
 .profile-stats-row {
   display: flex;
   gap: 24px;
