@@ -290,6 +290,13 @@ html, body {
   box-shadow: 0 0 8px #61dafb55;
 }
 
+.project-count {
+  color: #61dafb;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-left: 2px;
+}
+
 .profile-stats-row {
   display: flex;
   gap: 24px;
@@ -354,6 +361,9 @@ html, body {
   margin: 0 0 4px 0;
   color: #c9d1d9;
   font-size: 1em;
+}
+.pinned-card > p {
+  font-size: 15px;
 }
 .repo-lang {
   background: #161b22;
@@ -466,6 +476,13 @@ html, body {
   font-size: 1.1em;
   text-align: center;
   margin: 0;
+}
+
+.pinned-card h4 .project-count {
+  color: #ffb347;      /* Use a distinct color, e.g., orange for demo */
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-left: 2px;
 }
 
 @media (max-width: 1100px) {
